@@ -1,0 +1,30 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="parts/common :: head"></head>
+
+<body>
+
+<div th:insert="~{parts/common :: scripts}"></div>
+<div th:replace="parts/common :: navbar"></div>
+
+<div id="container" class="container mt-5">
+    <h5>Informacje kontaktowe</h5>
+    <br>
+    <p><b>Phone:</b> +48 516 754 081 <br/>
+        <b>E-mail:</b> dimason234556@gmail.com</p>
+    <br>
+    <h6>Czas pracy</h6>
+    <p>Sklep internetowy jest czynny od 08:00 do 20:00 bez przerw oraz w weekendy.<br/>
+        Zamówienia internetowe przyjmowane są przez całą dobę.</p>
+    <br>
+    <h6>Dostawa</h6>
+    <p>Zamówienia dostarczane są za pośrednictwem firmy kurierskiej InPost</p>
+    <br>
+
+</div>
+
+<footer th:insert="~{parts/common :: footer}"></footer>
+
+</body>
+</html>
